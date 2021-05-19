@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leisure list</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="type-container">
+        <p class="text">Тип</p>
+      </div>
+      <div id="item-container">
+        <p class="text">Жанр</p>
+      </div>
+      <div id="description-container">
+        <p class="text">Описание</p>
+      </div>
+      <div id="input-form">
+        <div class="id-form">
+          <label for="id-form">Id:</label>
+          <input type="text" id="id-form" />
+        </div>
+        <div class="title-form">
+          <label for="title-form">Жанр:</label>
+          <input type="text" id="title-form" />
+        </div>
+        <div class="tags-form">
+          <label for="tags-form">Теги:</label>
+          <input type="text" id="tags-form" />
+        </div>
+        <select name="select" id="select">
+          <option value="films">Фильмы</option>
+          <option value="books">Книги</option>
+          <option value="podcasts">Подкасты</option>
+          <option value="musics">Музыка</option>
+        </select>
+        <div class="btn">
+          <button id="btn">Добавить</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="index.ts"></script>
+  </body>
+</html>

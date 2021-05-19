@@ -1,0 +1,129 @@
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  gap: 20px;
+}
+
+#type-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 25vw;
+  height: 80vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#item-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 25vw;
+  height: 80vh;
+  box-shadow: 0 0 10px rgba(218, 67, 7, 0.5);
+}
+
+#description-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 25vw;
+  height: 80vh;
+  box-shadow: 0 0 10px rgba(7, 37, 207, 0.5);
+}
+
+.text {
+  display: flex;
+  position: relative;
+  font-size: 22px;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-bottom: 20px;
+  box-shadow: -1px -6px 7px -1px rgba(224, 126, 15, 0.315) inset;
+}
+
+.type,
+.item,
+.description {
+  display: flex;
+  left: 20px;
+  font-size: 20px;
+  position: relative;
+  width: 60%;
+  padding: 20px;
+}
+
+.type:hover,
+.item:hover {
+  transform-origin: left top;
+  margin-top: -10px;
+  margin-left: 20px;
+  transition: margin-left 130ms;
+  transition: margin-top 130ms;
+  box-shadow: 0 10px 90px rgba(0, 0, 0, 0.4);
+}
+
+.type,
+.item {
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+#type,
+#items,
+#tags:hover {
+  transition: all 200ms ease;
+}
+
+#input-form {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  width: 23vw;
+  height: auto;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  box-shadow: 0 0 10px rgba(7, 37, 207, 0.5);
+}
+
+select {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 250px;
+  height: 35px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+input {
+  height: 30px;
+  font-size: 20px;
+}
+
+label {
+  font-size: 20px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+#btn {
+  width: 250px;
+  height: 30px;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.id-form,
+.tags-form,
+.title-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
